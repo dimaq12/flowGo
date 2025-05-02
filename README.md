@@ -18,3 +18,12 @@ flow.
     Map(func(n int) string { return fmt.Sprintf("Even: %d", n) }).
     Tap(func(s string) { fmt.Println("Tapped:", s) }).
     ForEach(func(s string) { fmt.Println("Final:", s) })
+```
+
+---
+
+## 📚 Documentation
+
+- [📘 Full Specification](./docs/SPEC.md)
+- [🧠 Design Concepts](./docs/SPEC.md#core-concepts)
+- [🛣 Roadmap](./docs/SPEC.md#roadmap)
