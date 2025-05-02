@@ -1,0 +1,11 @@
+# Go build artifacts
+*.exe
+*.test
+*.out
+
+# IDE
+.vscode/
+.idea/
+
+# Misc
+.DS_Store
